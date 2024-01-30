@@ -24,12 +24,10 @@ const Hero = () => {
                 </p>
                 <Button label='Speak to an Expert' link='/' size='lg' />
               </div>
-              {/* <div className='circle-background lg:col-span-6 flex md:flex-row flex-col lg:gap-2 gap-2 items-center xl:pr-16 lg:pr-10 lg:pl-0 md:px-8 px-5 relative'> */}
+            
               <div className='circle-background  flex relative'>
                 <img src={EnergyPage} alt='energy-page' className='rounded-lg' />
-                {/* <div className='flex flex-col basis-1/2 lg:gap-8 gap-6 relative'>
-                  <img src={EnergyPage} alt='energy-page' className='' />
-                </div> */}
+               
               </div>
             </div>
           </div>

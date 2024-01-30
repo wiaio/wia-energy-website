@@ -1,6 +1,7 @@
 :root {
   --primary-600: #7c3aed;
   --primary-300: #c4b5fd !important;
+  --neutral-50: #f9fafb;
 }
 
 .container-border-bottom {
@@ -54,4 +55,64 @@
   .circle-background {
     display: none !important;
   }
+}
+
+.approach-section {
+  .image-circle {
+    width: 80px;
+    height: 80px;
+    padding: 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: var(--neutral-50);
+  }
+
+  .dotted-line {
+    border-top: 3px dotted var(--primary-300);
+    opacity: 0.4; /* You can adjust the thickness and color as needed */
+    width: 50%;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    z-index: -1;
+  }
+  .dotted-line.left {
+    left: 0px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .dotted-line {
+      display: none;
+    }
+  }
+}
+
+.benefits-section {
+  .image-circle {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--neutral-50);
+  }
+}
+
+.powered-by-section {
+  img {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 10px;
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.talk-to-us-section {
+  background: var(--primary-600);
 }

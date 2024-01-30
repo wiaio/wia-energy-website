@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-black text-white">
       <div className="container mx-auto">
         <div className="flex flex-col md:py-30 pt-12 pb-20 md:gap-24 gap-16">
-          <div>
+          {/* <div>
             <h3 className="md:text-display-xl text-display-md font-semibold pb-4">
               Have an idea?
             </h3>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

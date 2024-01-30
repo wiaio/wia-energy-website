@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = ({ label, link, size }) => (
+const Button = ({ label, link, size }: {label: string, link: string, size?: string}) => (
   <a
-    className={`button flex items-center justify-center rounded-full bg-primary-600 text-white font-semibold  ${
+    className={`button flex items-center justify-center rounded-lg bg-primary-600 text-white font-semibold  ${
       size === "lg" ? "px-6 py-4 text-body-sm" : "px-4 py-2.5 text-body-xs"
     }`}
     href={link}>

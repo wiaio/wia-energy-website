@@ -1,4 +1,4 @@
-import type { GatsbyConfig } from "gatsby";
+import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -10,8 +10,9 @@ const config: GatsbyConfig = {
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
-  plugins: ["gatsby-plugin-sass",
-  `gatsby-plugin-postcss`,
+  plugins: [
+    'gatsby-plugin-sass',
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -60,7 +61,7 @@ const config: GatsbyConfig = {
     // Use this plugin if you are deploying you site to Gatsby Cloud
     // To learn more, visit: https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/deploying-to-gatsby-cloud/
     // `gatsby-plugin-gatsby-cloud`,
-  ]
+  ],
 };
 
 export default config;

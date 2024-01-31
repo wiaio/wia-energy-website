@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from './button';
 
-import { StaticImage } from 'gatsby-plugin-image';
-
 const Hero = () => {
   return (
     <div id='#hero' className='container-border-bottom'>
@@ -27,8 +25,8 @@ const Hero = () => {
               </div>
 
               <div className='circle-background flex relative'>
-                <StaticImage
-                  src='../images/energy-page.png'
+                <img
+                  src='../../energy-page.png'
                   alt='energy-page'
                   className='static-image rounded-lg'
                 />

@@ -32,15 +32,6 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/data`,
       },
     },
-    // this plugin will pull all the files in our project system
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "src",
-        path: `${__dirname}/src/`,
-        icon: 'https://cdn.wia.io/website/images/favicons/android-chrome-192x192.png'
-      }
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

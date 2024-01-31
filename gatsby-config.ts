@@ -35,16 +35,14 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "wia",
-        short_name: "wia",
-        start_url: "/",
-        background_color: "#6b37bf",
-        theme_color: "#6b37bf",
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: "standalone",
-        icon: "https://cdn.wia.io/website/images/favicons/android-chrome-192x192.png" // This path is relative to the root of the site.
-      }
+        name: `Landify UI`,
+        short_name: `Landify UI`,
+        start_url: `/`,
+        background_color: `#7C3AED`,
+        theme_color: `#7C3AED`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`, // Replace with your favicon (This path is relative to the root of the site)
+      },
     },
     {
       resolve: `gatsby-plugin-google-gtag`,

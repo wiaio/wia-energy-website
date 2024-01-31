@@ -26,7 +26,7 @@ const Hero = () => {
 
               <div className='circle-background flex relative'>
                 <img
-                  src='../../energy-page.png'
+                  src='./energy-page.png'
                   alt='energy-page'
                   className='static-image rounded-lg'
                 />

@@ -21,7 +21,7 @@ const Hero = () => {
                   optimise their energy usage, paving the way for a smarter,
                   more efficient operational landscape.
                 </p>
-                <Button label='Speak to an Expert' link='/' size='lg' />
+                <Button label='Speak to an Expert' link='mailto:sales@wia.io' size='lg' />
               </div>
 
               <div className='circle-background flex relative'>

@@ -10,7 +10,7 @@ const Header = () => {
             <a href='/' className='navbar-brand'></a>
           </div>
           <div className='flex flex-row gap-6'>
-            <Button label='Contact Us' link='#' />
+            <Button label='Contact Us' link='mailto:sales@wia.io' />
           </div>
         </div>
       </div>

@@ -21,19 +21,19 @@ const TalkToUs = () => {
             />
           </div>
           <div className='grid lg:grid-cols-12 grid-cols-1 xl:gap-8 gap-4 items-center relative'>
-            <div className='lg:col-span-4 md:col-span-4 flex flex-row items-center mb-5'>
+            <div className='lg:col-span-4 md:col-span-4 flex flex-row items-center justify-center mb-2'>
               <img src={CHECK} alt='UI' className='mr-2' />
               <p className='text-body-md font-normal text-white'>
                 Deploy at any location
               </p>
             </div>
-            <div className='lg:col-span-4 md:col-span-4 flex flex-row items-center mb-5'>
+            <div className='lg:col-span-4 md:col-span-4 flex flex-row items-center justify-center mb-2'>
               <img src={CHECK} alt='UI' className='mr-2' />
               <p className='text-body-md font-normal text-white'>
                 One stop shop with end-to-end solutions
               </p>
             </div>
-            <div className='lg:col-span-4 md:col-span-4 flex flex-row items-center mb-5'>
+            <div className='lg:col-span-4 md:col-span-4 flex flex-row items-center justify-center mb-2'>
               <img src={CHECK} alt='UI' className='mr-2' />
               <p className='text-body-md font-normal text-white'>
                 Future proofed with AI enabled analytics

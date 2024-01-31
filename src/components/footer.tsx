@@ -1,47 +1,51 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   const social = [
-    { name: "Instagram", href: "#" },
-    { name: "Dribbble", href: "#" },
-    { name: "Behance", href: "#" },
-    { name: "Twitter", href: "#" },
-    { name: "Facebook", href: "#" },
-    { name: "YouTube", href: "#" },
+    { name: 'Instagram', href: '#' },
+    { name: 'Dribbble', href: '#' },
+    { name: 'Behance', href: '#' },
+    { name: 'Twitter', href: '#' },
+    { name: 'Facebook', href: '#' },
+    { name: 'YouTube', href: '#' },
   ];
   return (
-    <footer className="bg-black text-white">
-      <div className="container mx-auto">
-        <div className="flex flex-col md:py-30 pt-12 pb-20 md:gap-24 gap-16">
-          {/* <div>
-            <h3 className="md:text-display-xl text-display-md font-semibold pb-4">
-              Have an idea?
-            </h3>
-            <a
-              href="/"
-              className="md:text-display-xl text-display-md font-normal hover:text-primary-100 hover:underline">
-              Let’s talk ↗
-            </a>
+    <footer className='bg-black text-white'>
+      <div className='container mx-auto'>
+        <div className='flex flex-col md:py-20 pt-12 pb-16 md:gap-24 gap-16 relative'>
+          <div className='grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 xl:gap-8 gap-4 items-center relative'>
+            <div className='lg:col-span-3 sm:col-span-4  h-full flex flex-col sm:items-start items-center mb-5'>
+              <p className='text-body-lg font-medium'>Company</p>
+              <p className='text-body-sm text-neutral-300'>About</p>
+              <p className='text-body-sm text-neutral-300'>Jobs</p>
+              <p className='text-body-sm text-neutral-300'>Contact</p>
+            </div>
+
+            <div className='lg:col-span-3 sm:col-span-4 h-full flex flex-col sm:items-start items-center mb-5'>
+              <p className='text-body-lg font-medium'>Legal</p>
+              <p className='text-body-sm text-neutral-300'>Cookies Policy</p>
+              <p className='text-body-sm text-neutral-300'>
+                Terms & Conditions
+              </p>
+              <p className='text-body-sm text-neutral-300'>Contact</p>
+            </div>
+            <div className='lg:col-span-3 sm:col-span-4 h-full flex flex-col sm:items-start items-center mb-5'>
+              <p className='text-body-lg font-medium'>Follow us</p>
+              <p className='text-body-sm text-neutral-300'>LinkedIn</p>
+              <p className='text-body-sm text-neutral-300'>Twitter</p>
+            </div>
           </div>
-          <div className="flex md:flex-row flex-col md:gap-8 gap-12 justify-between">
-            <div>
-              <a
-                href="mailto:hello@landify.design"
-                className="md:text-display-xs text-body-xl font-medium text-neutral-200 hover:text-primary-100 hover:underline">
-                hello@landify.design
-              </a>
-            </div>
-            <div className="grid md:grid-cols-3 grid-cols-2 md:gap-12 gap-3 md:pl-32">
-              {social.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="md:text-body-xl text-body-md font-normal text-neutral-200 hover:text-primary-100">
-                  {item.name}
-                </a>
-              ))}
-            </div>
-          </div> */}
+
+          <div className='footer-logo'>
+            <div className='line'></div>
+            <img
+              src='https://cdn.wia.io/website/images/svg/wia-logo-light.svg'
+              alt=''
+            />
+          </div>
+          <p className='all-rigths text-body-sm text-neutral-300'>
+            © 2024 Wia Technologies Limited. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

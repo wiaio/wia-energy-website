@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwia_energy_website=self.webpackChunkwia_energy_website||[]).push([[49],{2766:function(e,n,t){t.r(n);var l=t(7294),a=t(6193),u=t(4001);n.default=()=>l.createElement(a.Z,null,l.createElement(u.Z,null))}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-e0a0ccaf34ae366bc066.js.map

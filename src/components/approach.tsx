@@ -8,7 +8,7 @@ import {
 
 const Approach = () => {
   return (
-    <div id='#approach' className='approach-section'>
+    <div id='#approach' className='approach-section overflow-x-hidden sm:overflow-visible'>
       <div className='approach-background'></div>
       <div className='container mx-auto'>
         <div className='flex flex-col relative lg:py-24 pt-10 pb-5'>

@@ -73,7 +73,6 @@ body {
 
 .approach-section {
   position: relative;
-  overflow: hidden;
   .approach-background {
     width: 200%;
     height: 100%;
@@ -133,6 +132,7 @@ body {
 }
 
 .powered-by-section {
+  position: relative;
   img {
     display: flex;
     padding: 8px;
@@ -140,6 +140,10 @@ body {
     gap: 10px;
     width: 48px;
     height: 48px;
+  }
+  .icon {
+    position: absolute;
+    left: 0;
   }
 }
 

@@ -6,7 +6,7 @@ import CLOUD from '../images/solutions/cloud.svg';
 
 const Solutions = () => {
   return (
-    <div id='#solutions' className='container-border-bottom'>
+    <div id='#solutions' className=''>
       <div className='container mx-auto'>
         <div className='flex flex-col relative lg:pt-24 pt-10 pb-5'>
           <div className='lg:col-span-12 flex flex-col items-center pb-10'>

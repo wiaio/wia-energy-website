@@ -6,11 +6,12 @@ import ANALYSE from '../images/approach/analyse.svg';
 
 const Approach = () => {
   return (
-    <div id='#approach' className='approach-section container-border-bottom'>
+    <div id='#approach' className='approach-section'>
+      <div className="approach-background"></div>
       <div className='container mx-auto'>
         <div className='flex flex-col relative lg:py-24 pt-10 pb-5'>
           <div className='lg:col-span-12 flex flex-col items-center pb-10'>
-            <h2 className='lg:text-display-lg text-display-md font-semibold pb-4 text-center lg:px-24'>
+            <h2 className='lg:text-display-lg text-display-md font-semibold pb-4 text-center lg:px-24 text-white'>
               Our Approach
             </h2>
           </div>
@@ -20,10 +21,10 @@ const Approach = () => {
               <div className='image-circle mb-4'>
                 <img src={CONNECT} alt='UI' className='' />
               </div>
-              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
+              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Evaluate
               </h2>
-              <p className='text-body-md font-normal text-neutral-600 text-center'>
+              <p className='text-body-md font-normal text-neutral-600 text-center text-neutral-300'>
                 We begin with a detailed site evaluation to understand your
                 energy monitoring needs, from overall consumption to specific
                 equipment. <br />
@@ -37,10 +38,10 @@ const Approach = () => {
               <div className='image-circle mb-4'>
                 <img src={DEPLOY} alt='UI' />
               </div>
-              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
+              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Deploy
               </h2>
-              <p className='text-body-md font-normal text-neutral-600 text-center'>
+              <p className='text-body-md font-normal text-neutral-600 text-center text-neutral-300'>
                 We provide an all-inclusive package of hardware, connectivity,
                 and software, specifically tailored to your logistical
                 operations. <br /> Our turnkey solutions ensure a smooth and
@@ -52,10 +53,10 @@ const Approach = () => {
               <div className='image-circle mb-4'>
                 <img src={ANALYSE} alt='UI' />
               </div>
-              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
+              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Analyse
               </h2>
-              <p className='text-body-md font-normal text-neutral-600 text-center'>
+              <p className='text-body-md font-normal text-neutral-600 text-center text-neutral-300'>
                 Benefit from immediate analytics post-deployment, offering
                 instant access to crucial energy data. <br /> Empower your
                 decision-making with timely and accurate energy insights.

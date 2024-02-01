@@ -1,10 +1,12 @@
 import React from 'react';
 
-import CONNECT from '../images/benefits/connect.svg';
-import DEPTH from '../images/benefits/depth.svg';
-import ANALYSE from '../images/benefits/analyse.svg';
-
-import DEPLOY from '../images/approach/deploy.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faChartMixed,
+  faEarthEurope,
+  faPlug,
+  faSensorCloud,
+} from '@fortawesome/pro-duotone-svg-icons';
 
 const PoweredBy = () => {
   return (
@@ -23,7 +25,7 @@ const PoweredBy = () => {
             <div className='lg:col-span-7 flex flex-col'>
               <div className='grid lg:grid-cols-12  md:grid-cols-12 grid-cols-1 xl:gap-6 md:gap-6 gap-6 items-center relative'>
                 <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-5'>
-                  <img src={CONNECT} alt='UI' className='mr-4' />
+                  <FontAwesomeIcon icon={faSensorCloud} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
                       100,000+
@@ -34,7 +36,7 @@ const PoweredBy = () => {
                   </div>
                 </div>
                 <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-5'>
-                  <img src={DEPTH} alt='UI' className='mr-4' />
+                  <FontAwesomeIcon icon={faChartMixed} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
                       Millions
@@ -46,7 +48,7 @@ const PoweredBy = () => {
                 </div>
 
                 <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-5'>
-                  <img src={DEPLOY} alt='UI' className='mr-4' />
+                  <FontAwesomeIcon icon={faPlug} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
                       100+
@@ -58,7 +60,7 @@ const PoweredBy = () => {
                 </div>
 
                 <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-5'>
-                  <img src={ANALYSE} alt='UI' className='mr-4' />
+                  <FontAwesomeIcon icon={faEarthEurope} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
                       120

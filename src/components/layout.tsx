@@ -9,7 +9,10 @@ const Layout = ({ children }: any) => (
   <>
     <Helmet>
       <script src="https://gumroad.com/js/gumroad.js" />
+      <script src="https://kit.fontawesome.com/d7b6a45a19.js" crossOrigin="anonymous"></script>
       <link rel="icon" href="https://cdn.wia.io/website/images/favicons/android-chrome-192x192.png" />
+      <link rel="stylesheet" href="https://kit.fontawesome.com/d7b6a45a19.css" crossOrigin="anonymous"></link>
+      
     </Helmet>
     <Header />
     <div>

@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-import previewImage from "../images/og-preview.jpg";
 
 function Seo({ lang, meta, title, description, image, url }) {
   const { site } = useStaticQuery(
@@ -24,7 +23,7 @@ function Seo({ lang, meta, title, description, image, url }) {
   const siteTitle = title || site.siteMetadata.title;
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
-  const ogImage = image || previewImage;
+  const ogImage = image;
   const ogUrl = `/${url}` || "";
 
   return (

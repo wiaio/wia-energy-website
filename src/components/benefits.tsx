@@ -1,9 +1,11 @@
 import React from 'react';
-
-import CONNECT from '../images/benefits/connect.svg';
-import DEPTH from '../images/benefits/depth.svg';
-import FLEXIBLE from '../images/benefits/flexible.svg';
-import ANALYSE from '../images/benefits/analyse.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faArrowUpRightDots,
+  faAtomSimple,
+  faGaugeCircleBolt,
+  faHandHoldingSeedling,
+} from '@fortawesome/pro-duotone-svg-icons';
 
 const Benefits = () => {
   return (
@@ -18,7 +20,7 @@ const Benefits = () => {
           <div className='grid lg:grid-cols-12 grid-cols-1 xl:gap-6 md:gap-6 gap-6 items-center relative'>
             <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-12'>
               <div className='image-circle mr-10'>
-                <img src={CONNECT} alt='UI' className='' />
+                <FontAwesomeIcon icon={faAtomSimple} className='icon' />
               </div>
               <div className='text'>
                 <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
@@ -31,7 +33,7 @@ const Benefits = () => {
             </div>
             <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-12'>
               <div className='image-circle mr-10'>
-                <img src={DEPTH} alt='UI' className='' />
+                <FontAwesomeIcon icon={faGaugeCircleBolt} className='icon' />
               </div>
               <div className='text'>
                 <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
@@ -46,7 +48,7 @@ const Benefits = () => {
 
             <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-12'>
               <div className='image-circle mr-10'>
-                <img src={FLEXIBLE} alt='UI' className='' />
+                <FontAwesomeIcon icon={faArrowUpRightDots} className='icon' />
               </div>
               <div className='text'>
                 <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
@@ -61,7 +63,10 @@ const Benefits = () => {
 
             <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pb-12'>
               <div className='image-circle mr-10'>
-                <img src={ANALYSE} alt='UI' className='' />
+                <FontAwesomeIcon
+                  icon={faHandHoldingSeedling}
+                  className='icon'
+                />
               </div>
               <div className='text'>
                 <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>

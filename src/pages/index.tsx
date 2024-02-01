@@ -2,9 +2,6 @@ import * as React from "react"
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import LogoClouds from "../components/logoClouds";
-import Works from "../components/works";
-import About from "../components/about";
 import Hero from "../components/hero";
 import Metrics from '../components/metrics';
 import Solutions from '../components/solutions';

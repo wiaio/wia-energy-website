@@ -1,13 +1,15 @@
 import React from 'react';
-
-import CONNECT from '../images/approach/connect.svg';
-import DEPLOY from '../images/approach/deploy.svg';
-import ANALYSE from '../images/approach/analyse.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faBoxOpen,
+  faClipboardList,
+  faMagnifyingGlassChart,
+} from '@fortawesome/pro-duotone-svg-icons';
 
 const Approach = () => {
   return (
     <div id='#approach' className='approach-section'>
-      <div className="approach-background"></div>
+      <div className='approach-background'></div>
       <div className='container mx-auto'>
         <div className='flex flex-col relative lg:py-24 pt-10 pb-5'>
           <div className='lg:col-span-12 flex flex-col items-center pb-10'>
@@ -19,7 +21,7 @@ const Approach = () => {
             <div className='lg:col-span-4 relative md:col-span-4 h-full flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
               <div className='dotted-line'></div>
               <div className='image-circle mb-4'>
-                <img src={CONNECT} alt='UI' className='' />
+                <FontAwesomeIcon icon={faClipboardList} className='icon' />
               </div>
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Evaluate
@@ -36,7 +38,7 @@ const Approach = () => {
               <div className='dotted-line left'></div>
               <div className='dotted-line'></div>
               <div className='image-circle mb-4'>
-                <img src={DEPLOY} alt='UI' />
+                <FontAwesomeIcon icon={faBoxOpen} className='icon' />
               </div>
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Deploy
@@ -51,7 +53,10 @@ const Approach = () => {
             <div className='lg:col-span-4 relative md:col-span-4 h-full flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
               <div className='dotted-line left'></div>
               <div className='image-circle mb-4'>
-                <img src={ANALYSE} alt='UI' />
+                <FontAwesomeIcon
+                  icon={faMagnifyingGlassChart}
+                  className='icon'
+                />
               </div>
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Analyse

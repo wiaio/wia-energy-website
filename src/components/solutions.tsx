@@ -1,8 +1,11 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import CONNECT from '../images/solutions/connect.svg';
-import WIRELESS from '../images/solutions/wireless.svg';
-import CLOUD from '../images/solutions/cloud.svg';
+import {
+  faBrainCircuit,
+  faMeterBolt,
+  faRouter,
+} from '@fortawesome/pro-duotone-svg-icons';
 
 const Solutions = () => {
   return (
@@ -16,7 +19,7 @@ const Solutions = () => {
           </div>
           <div className='grid lg:grid-cols-12 grid-cols-1 xl:gap-8 gap-4 items-center relative'>
             <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center mb-5'>
-              <img src={CONNECT} alt='UI' className='pb-8' />
+              <FontAwesomeIcon icon={faMeterBolt} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
                 Connect Any Meter
               </h2>
@@ -28,7 +31,7 @@ const Solutions = () => {
               </p>
             </div>
             <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center mb-5'>
-              <img src={WIRELESS} alt='UI' className='pb-8' />
+              <FontAwesomeIcon icon={faRouter} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
                 Advanced Wireless Networks
               </h2>
@@ -40,7 +43,7 @@ const Solutions = () => {
               </p>
             </div>
             <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center mb-5'>
-              <img src={CLOUD} alt='UI' className='pb-8' />
+              <FontAwesomeIcon icon={faBrainCircuit} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
                 State-of-the-Art Cloud Analytics
               </h2>

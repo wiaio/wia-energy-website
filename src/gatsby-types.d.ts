@@ -1584,7 +1584,7 @@ type Query_worksJsonArgs = {
   children: InputMaybe<NodeFilterListInput>;
   description: InputMaybe<StringQueryOperatorInput>;
   id: InputMaybe<StringQueryOperatorInput>;
-  image: InputMaybe<FileFilterInput>;
+  image: InputMaybe<StringQueryOperatorInput>;
   internal: InputMaybe<InternalFilterInput>;
   parent: InputMaybe<NodeFilterInput>;
   title: InputMaybe<StringQueryOperatorInput>;
@@ -2390,7 +2390,7 @@ type WorksJson = Node & {
   readonly children: ReadonlyArray<Node>;
   readonly description: Maybe<Scalars['String']>;
   readonly id: Scalars['ID'];
-  readonly image: Maybe<File>;
+  readonly image: Maybe<Scalars['String']>;
   readonly internal: Internal;
   readonly parent: Maybe<Node>;
   readonly title: Maybe<Scalars['String']>;
@@ -2445,7 +2445,7 @@ type WorksJsonFieldSelector = {
   readonly children: InputMaybe<NodeFieldSelector>;
   readonly description: InputMaybe<FieldSelectorEnum>;
   readonly id: InputMaybe<FieldSelectorEnum>;
-  readonly image: InputMaybe<FileFieldSelector>;
+  readonly image: InputMaybe<FieldSelectorEnum>;
   readonly internal: InputMaybe<InternalFieldSelector>;
   readonly parent: InputMaybe<NodeFieldSelector>;
   readonly title: InputMaybe<FieldSelectorEnum>;
@@ -2455,7 +2455,7 @@ type WorksJsonFilterInput = {
   readonly children: InputMaybe<NodeFilterListInput>;
   readonly description: InputMaybe<StringQueryOperatorInput>;
   readonly id: InputMaybe<StringQueryOperatorInput>;
-  readonly image: InputMaybe<FileFilterInput>;
+  readonly image: InputMaybe<StringQueryOperatorInput>;
   readonly internal: InputMaybe<InternalFilterInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
   readonly title: InputMaybe<StringQueryOperatorInput>;
@@ -2510,7 +2510,7 @@ type WorksJsonSortInput = {
   readonly children: InputMaybe<NodeSortInput>;
   readonly description: InputMaybe<SortOrderEnum>;
   readonly id: InputMaybe<SortOrderEnum>;
-  readonly image: InputMaybe<FileSortInput>;
+  readonly image: InputMaybe<SortOrderEnum>;
   readonly internal: InputMaybe<InternalSortInput>;
   readonly parent: InputMaybe<NodeSortInput>;
   readonly title: InputMaybe<SortOrderEnum>;

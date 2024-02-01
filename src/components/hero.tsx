@@ -6,7 +6,7 @@ const Hero = () => {
     <div id='#hero' className='container-border-bottom'>
       <div className='container mx-auto'>
         <div className='lg:py-20 md:py-14 pt-5 pb-5'>
-          <div className='flex flex-col relative lg:py-0 pb-10'>
+          <div className='flex flex-col relative lg:py-0 pb-10 overflow-hidden sm:overflow-visible'>
             <div className='absolute lg:block hidden h-16 bg-white bottom-0 left-0 right-0'></div>
             <div className='absolute lg:block hidden h-16 bg-white top-0 left-0 right-0'></div>
             <div className='grid lg:grid-cols-12 grid-cols-1 xl:gap-8 items-center  relative'>
@@ -21,10 +21,14 @@ const Hero = () => {
                   optimise their energy usage, paving the way for a smarter,
                   more efficient operational landscape.
                 </p>
-                <Button label='Speak to an Expert' link='mailto:sales@wia.io' size='lg' />
+                <Button
+                  label='Speak to an Expert'
+                  link='mailto:sales@wia.io'
+                  size='lg'
+                />
               </div>
 
-              <div className='circle-background flex relative'>
+              <div className='circle-background flex relative overflow-hidden sm:overflow-visible'>
                 <img
                   src='./energy-page.png'
                   alt='energy-page'

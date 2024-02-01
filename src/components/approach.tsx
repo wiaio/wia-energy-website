@@ -26,7 +26,7 @@ const Approach = () => {
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Evaluate
               </h2>
-              <p className='text-body-md font-normal text-neutral-600 text-center text-neutral-300'>
+              <p className='text-body-md font-normal text-center text-neutral-300'>
                 We begin with a detailed site evaluation to understand your
                 energy monitoring needs, from overall consumption to specific
                 equipment. <br />
@@ -43,7 +43,7 @@ const Approach = () => {
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Deploy
               </h2>
-              <p className='text-body-md font-normal text-neutral-600 text-center text-neutral-300'>
+              <p className='text-body-md font-normal text-center text-neutral-300'>
                 We provide an all-inclusive package of hardware, connectivity,
                 and software, specifically tailored to your logistical
                 operations. <br /> Our turnkey solutions ensure a smooth and
@@ -61,7 +61,7 @@ const Approach = () => {
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2 text-white'>
                 Analyse
               </h2>
-              <p className='text-body-md font-normal text-neutral-600 text-center text-neutral-300'>
+              <p className='text-body-md font-normal text-center text-neutral-300'>
                 Benefit from immediate analytics post-deployment, offering
                 instant access to crucial energy data. <br /> Empower your
                 decision-making with timely and accurate energy insights.

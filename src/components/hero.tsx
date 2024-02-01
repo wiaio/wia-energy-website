@@ -6,11 +6,11 @@ const Hero = () => {
     <div id='#hero' className='container-border-bottom'>
       <div className='container mx-auto'>
         <div className='lg:py-20 md:py-14 pt-5 pb-5'>
-          <div className='flex flex-col relative lg:py-0'>
+          <div className='flex flex-col relative lg:py-0 pb-10'>
             <div className='absolute lg:block hidden h-16 bg-white bottom-0 left-0 right-0'></div>
             <div className='absolute lg:block hidden h-16 bg-white top-0 left-0 right-0'></div>
             <div className='grid lg:grid-cols-12 grid-cols-1 xl:gap-8 items-center  relative'>
-              <div className='hero-text lg:col-span-6 flex flex-col items-start pb-10 xl:pr-18 lg:pr-16 '>
+              <div className='hero-text lg:col-span-6 flex flex-col items-start xl:pr-18 lg:pr-16 '>
                 <h2 className='lg:text-display-lg text-display-md font-semibold pb-4'>
                   Empowering Sustainable Energy <br></br>Through Real-Time
                   Monitoring

@@ -57,7 +57,12 @@ body {
     padding-right: 0;
   }
   .circle-background {
-    display: none !important;
+    position: relative !important;
+    margin: 0;
+    display: block !important;
+    margin: 0 auto;
+    left: 0;
+    margin-top: 24px;
   }
 }
 

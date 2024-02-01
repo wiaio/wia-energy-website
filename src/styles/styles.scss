@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+.svg-inline--fa {
+  fill: var(--primary-600, currentColor);
+  opacity: var(--primary-600, 0.4);
+}
+
 .container-border-bottom {
   border-bottom: 1px solid #efefef;
 }

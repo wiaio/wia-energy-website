@@ -13,6 +13,10 @@ body {
   opacity: var(--primary-600, 0.4);
 }
 
+.svg-inline--fa .fa-secondary {
+  opacity: 0.4;
+}
+
 .container-border-bottom {
   border-bottom: 1px solid #efefef;
 }

@@ -11,16 +11,16 @@ const Solutions = () => {
   return (
     <div id='#solutions' className=''>
       <div className='container mx-auto'>
-        <div className='flex flex-col relative lg:pt-24 pt-10 pb-5'>
-          <div className='lg:col-span-12 flex flex-col items-center pb-10'>
-            <h2 className='lg:text-display-lg text-display-md font-semibold pb-4 text-center lg:px-24'>
+        <div className='flex flex-col relative md:py-24 py-16'>
+          <div className='lg:col-span-12 flex flex-col items-center'>
+            <h2 className='lg:text-display-lg text-display-md font-semibold pb-14 text-center lg:px-24'>
               Innovative Energy Solutions Tailored for Your Business
             </h2>
           </div>
-          <div className='grid lg:grid-cols-12 grid-cols-1 xl:gap-8 gap-4 items-center relative'>
-            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center mb-5'>
+          <div className='grid lg:grid-cols-12 grid-cols-1 gap-8 items-center relative'>
+            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faMeterBolt} className='icon mb-6' />
-              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
+              <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 Connect Any Meter
               </h2>
               <p className='text-body-md font-normal text-neutral-600 text-center'>
@@ -30,9 +30,9 @@ const Solutions = () => {
                 monitoring.
               </p>
             </div>
-            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center mb-5'>
+            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faRouter} className='icon mb-6' />
-              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
+              <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 Advanced Wireless Networks
               </h2>
               <p className='text-body-md font-normal text-neutral-600 text-center'>
@@ -42,9 +42,9 @@ const Solutions = () => {
                 operational environments.
               </p>
             </div>
-            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center mb-5'>
+            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faBrainCircuit} className='icon mb-6' />
-              <h2 className='lg:text-4xl text-display-xs font-semibold text-center mb-2'>
+              <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 State-of-the-Art Cloud Analytics
               </h2>
               <p className='text-body-md font-normal text-neutral-600 text-center'>

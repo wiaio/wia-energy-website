@@ -18,7 +18,7 @@ const Approach = () => {
             </h2>
           </div>
           <div className='grid lg:grid-cols-12 grid-cols-1 xl:gap-0 md:gap-0 gap-4 items-center relative'>
-            <div className='lg:col-span-4 relative md:col-span-4 h-full flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
+            <div className='lg:col-span-4 relative md:col-span-4 flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
               <div className='dotted-line'></div>
               <div className='image-circle mb-4'>
                 <FontAwesomeIcon icon={faClipboardList} className='icon' />
@@ -34,7 +34,7 @@ const Approach = () => {
                 effectiveness.
               </p>
             </div>
-            <div className='lg:col-span-4 relative md:col-span-4 h-full flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
+            <div className='lg:col-span-4 relative md:col-span-4 flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
               <div className='dotted-line left'></div>
               <div className='dotted-line'></div>
               <div className='image-circle mb-4'>
@@ -50,7 +50,7 @@ const Approach = () => {
                 hassle-free implementation.
               </p>
             </div>
-            <div className='lg:col-span-4 relative md:col-span-4 h-full flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
+            <div className='lg:col-span-4 relative md:col-span-4 flex flex-col items-center mb-4 lg:pl-6 lg:pr-10'>
               <div className='dotted-line left'></div>
               <div className='image-circle mb-4'>
                 <FontAwesomeIcon

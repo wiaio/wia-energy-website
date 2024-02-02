@@ -24,7 +24,7 @@ const PoweredBy = () => {
             </div>
             <div className='lg:col-span-7 flex flex-col'>
               <div className='grid lg:grid-cols-12 md:grid-cols-12 grid-cols-1 gap-10 items-center relative'>
-                <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pl-14'>
+                <div className='lg:col-span-6 relative md:col-span-6 md:h-full flex flex-row pl-14'>
                   <FontAwesomeIcon icon={faSensorCloud} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
@@ -35,7 +35,7 @@ const PoweredBy = () => {
                     </p>
                   </div>
                 </div>
-                <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pl-14'>
+                <div className='lg:col-span-6 relative md:col-span-6 md:h-full flex flex-row pl-14'>
                   <FontAwesomeIcon icon={faChartMixed} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
@@ -47,7 +47,7 @@ const PoweredBy = () => {
                   </div>
                 </div>
 
-                <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pl-14'>
+                <div className='lg:col-span-6 relative md:col-span-6 md:h-full flex flex-row pl-14'>
                   <FontAwesomeIcon icon={faPlug} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>
@@ -59,7 +59,7 @@ const PoweredBy = () => {
                   </div>
                 </div>
 
-                <div className='lg:col-span-6 relative md:col-span-6 h-full flex flex-row pl-14'>
+                <div className='lg:col-span-6 relative md:col-span-6 md:h-full flex flex-row pl-14'>
                   <FontAwesomeIcon icon={faEarthEurope} className='icon mr-4' />
                   <div className='text'>
                     <h2 className='lg:text-4xl text-display-xs font-semibold mb-1'>

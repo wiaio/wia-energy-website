@@ -18,7 +18,7 @@ const Solutions = () => {
             </h2>
           </div>
           <div className='grid lg:grid-cols-12 grid-cols-1 gap-8 items-center relative'>
-            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center'>
+            <div className='lg:col-span-4 md:col-span-4 md:h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faMeterBolt} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 Connect Any Meter
@@ -30,7 +30,7 @@ const Solutions = () => {
                 monitoring.
               </p>
             </div>
-            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center'>
+            <div className='lg:col-span-4 md:col-span-4 md:h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faRouter} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 Advanced Wireless Networks
@@ -42,7 +42,7 @@ const Solutions = () => {
                 operational environments.
               </p>
             </div>
-            <div className='lg:col-span-4 md:col-span-4 h-full flex flex-col items-center'>
+            <div className='lg:col-span-4 md:col-span-4 md:h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faBrainCircuit} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 State-of-the-Art Cloud Analytics

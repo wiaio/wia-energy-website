@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-bc38080de8fb75ad91af.js"
+    "url": "webpack-runtime-5217b3d0a0b27f5dc851.js"
   },
   {
     "url": "framework-b197ffb3fa41eb7220a7.js"
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "styles.4d37efa59e1375be5fd7.css"
   },
   {
-    "url": "app-e9eee8bbdf3b2fe08bb2.js"
+    "url": "app-b1c4638fe2f559dcd292.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d46a8a0fda3f482e6e45646e4eab15f5"
+    "revision": "e7908b6496f8b8ebd553cb495b6f761e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -145,12 +145,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/wia-energy-websit`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e9eee8bbdf3b2fe08bb2.js`))) {
+  if (!resources || !(await caches.match(`/wia-energy-websit/app-b1c4638fe2f559dcd292.js`))) {
     return await fetch(event.request)
   }
 
@@ -163,7 +163,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/wia-energy-websit/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })

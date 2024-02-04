@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, navigate } from 'gatsby';
+import { Link } from 'gatsby';
 
 const Footer = () => {
   return (
@@ -17,26 +17,33 @@ const Footer = () => {
                 <Link to='/jobs'>Jobs</Link>
               </p>
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='/about'>Contact</Link>
+                <Link to='/contact'>Contact</Link>
               </p>
             </div>
 
             <div className='sm:col-span-4 flex flex-col items-center'>
               <p className='text-body-lg font-medium'>Legal</p>
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='/about'>Cookies Policy</Link>
+                <Link to='/cookies'>Cookies Policy</Link>
               </p>
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='/about'>Terms & Conditions</Link>
+                <Link to='/terms'>Terms & Conditions</Link>
               </p>
             </div>
             <div className='sm:col-span-4 flex flex-col items-center'>
               <p className='text-body-lg font-medium'>Follow us</p>
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='/about'>LinkedIn</Link>
+                <a
+                  href='https://www.linkedin.com/company/wia-limited/about/'
+                  target='_blank'
+                >
+                  LinkedIn
+                </a>
               </p>
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='/about'>Twitter</Link>
+                <a href='https://twitter.com/wiaio' target='_blank'>
+                  Twitter
+                </a>
               </p>
             </div>
           </div>

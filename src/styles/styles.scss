@@ -1,20 +1,38 @@
 @font-face {
-  font-family:'nexa';
-  src:url(https://cdn.wia.io/fonts/nexaregular-webfont.eot);
-  src:url(https://cdn.wia.io/fonts/nexaregular-webfont.eot?#iefix) format('embedded-opentype'),url(https://cdn.wia.io/fonts/nexaregular-webfont.woff2) format('woff2'),url(https://cdn.wia.io/fonts/nexaregular-webfont.woff) format('woff'),url(https://cdn.wia.io/fonts/nexaregular-webfont.ttf) format('truetype'),url(https://cdn.wia.io/fonts/nexaregular-webfont.svg#nexa_regular) format('svg');
-  font-weight:normal;
+  font-family: 'nexa';
+  src: url(https://cdn.wia.io/fonts/nexaregular-webfont.eot);
+  src: url(https://cdn.wia.io/fonts/nexaregular-webfont.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://cdn.wia.io/fonts/nexaregular-webfont.woff2) format('woff2'),
+    url(https://cdn.wia.io/fonts/nexaregular-webfont.woff) format('woff'),
+    url(https://cdn.wia.io/fonts/nexaregular-webfont.ttf) format('truetype'),
+    url(https://cdn.wia.io/fonts/nexaregular-webfont.svg#nexa_regular)
+      format('svg');
+  font-weight: normal;
 }
 @font-face {
-  font-family:'nexa';
-  src:url(https://cdn.wia.io/fonts/nexabold-webfont.eot);
-  src:url(https://cdn.wia.io/fonts/nexabold-webfont.eot?#iefix) format('embedded-opentype'),url(https://cdn.wia.io/fonts/nexabold-webfont.woff2) format('woff2'),url(https://cdn.wia.io/fonts/nexabold-webfont.woff) format('woff'),url(https://cdn.wia.io/fonts/nexabold-webfont.ttf) format('truetype'),url(https://cdn.wia.io/fonts/nexabold-webfont.svg#nexa_boldregular) format('svg');
-  font-weight:bold;
+  font-family: 'nexa';
+  src: url(https://cdn.wia.io/fonts/nexabold-webfont.eot);
+  src: url(https://cdn.wia.io/fonts/nexabold-webfont.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://cdn.wia.io/fonts/nexabold-webfont.woff2) format('woff2'),
+    url(https://cdn.wia.io/fonts/nexabold-webfont.woff) format('woff'),
+    url(https://cdn.wia.io/fonts/nexabold-webfont.ttf) format('truetype'),
+    url(https://cdn.wia.io/fonts/nexabold-webfont.svg#nexa_boldregular)
+      format('svg');
+  font-weight: bold;
 }
 @font-face {
-  font-family:'nexa';
-  src:url(https://cdn.wia.io/fonts/nexabook-webfont.eot);
-  src:url(https://cdn.wia.io/fonts/nexabook-webfont.eot?#iefix) format('embedded-opentype'),url(https://cdn.wia.io/fonts/nexabook-webfont.woff2) format('woff2'),url(https://cdn.wia.io/fonts/nexabook-webfont.woff) format('woff'),url(https://cdn.wia.io/fonts/nexabook-webfont.ttf) format('truetype'),url(https://cdn.wia.io/fonts/nexabook-webfont.svg#nexa_bookregular) format('svg');
-  font-weight:100;
+  font-family: 'nexa';
+  src: url(https://cdn.wia.io/fonts/nexabook-webfont.eot);
+  src: url(https://cdn.wia.io/fonts/nexabook-webfont.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://cdn.wia.io/fonts/nexabook-webfont.woff2) format('woff2'),
+    url(https://cdn.wia.io/fonts/nexabook-webfont.woff) format('woff'),
+    url(https://cdn.wia.io/fonts/nexabook-webfont.ttf) format('truetype'),
+    url(https://cdn.wia.io/fonts/nexabook-webfont.svg#nexa_bookregular)
+      format('svg');
+  font-weight: 100;
 }
 
 :root {
@@ -39,6 +57,10 @@ body {
 
 .container-border-bottom {
   border-bottom: 1px solid #efefef;
+}
+
+.link:hover {
+  color: var(--primary-300) !important;
 }
 
 .icon {
@@ -201,6 +223,7 @@ footer {
       padding: 0 24px;
     }
   }
+ 
   .all-rigths {
     position: absolute;
     width: 100%;

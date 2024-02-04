@@ -8,14 +8,14 @@ const Terms = () => (
       <div className='container mx-auto'>
         <div className='flex flex-col relative md:py-24 py-16'>
           <div className='md:col-span-12 flex flex-col items-center mb-10'>
-            <h2 className='lg:text-display-lg text-display-md font-semibold pb-14 text-center lg:px-24'>
-              Terms & Conditions
+            <h2 className='lg:text-display-lg text-display-md font-semibold  text-center lg:px-24'>
+              Terms of Service
             </h2>
+            <p className='text-body-md font-normal text-center text-neutral-600'>
+              Last updated: May 23, 2018
+            </p>
 
             <div className='section--terms sm:p-10'>
-              <h5>Terms of Service ("Terms")</h5>
-              <p>Last updated: May 23, 2018</p>
-
               <p>
                 Please read these Terms of Service ("Terms", "Terms of Service")
                 carefully before using the https://www.wia.io website (the

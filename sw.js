@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8e3924df2d838b210482.js"
+    "url": "webpack-runtime-1a301db203c12f93491a.js"
   },
   {
-    "url": "framework-b197ffb3fa41eb7220a7.js"
+    "url": "framework-9d9451af489ba4de012e.js"
   },
   {
-    "url": "styles.4d37efa59e1375be5fd7.css"
+    "url": "styles.60c60c71c9176233342b.css"
   },
   {
-    "url": "app-fca8c9a602676bba78ce.js"
+    "url": "app-225d917caa12942df8ff.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "bb3f2c0c3907b408493107426cddde0e"
+    "revision": "672ed373f5692c42acfba93df3ce51c7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -150,7 +150,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/wia-energy-website/app-fca8c9a602676bba78ce.js`))) {
+  if (!resources || !(await caches.match(`/wia-energy-website/app-225d917caa12942df8ff.js`))) {
     return await fetch(event.request)
   }
 

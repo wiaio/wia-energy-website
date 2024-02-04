@@ -1,37 +1,43 @@
 import React from 'react';
+import { Link, navigate } from 'gatsby';
 
 const Footer = () => {
-  const social = [
-    { name: 'Instagram', href: '#' },
-    { name: 'Dribbble', href: '#' },
-    { name: 'Behance', href: '#' },
-    { name: 'Twitter', href: '#' },
-    { name: 'Facebook', href: '#' },
-    { name: 'YouTube', href: '#' },
-  ];
   return (
     <footer className='bg-black text-white'>
       <div className='container mx-auto'>
         <div className='flex flex-col md:py-20 pt-12 pb-24 md:gap-24 gap-16 relative'>
           <div className='grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 xl:gap-8 gap-4 items-center relative'>
-            <div className=' sm:col-span-4 flex flex-col items-center'>
+            <div className='sm:col-span-4 flex flex-col items-center'>
               <p className='text-body-lg font-medium'>Company</p>
-              <p className='text-body-sm text-neutral-300'>About</p>
-              <p className='text-body-sm text-neutral-300'>Jobs</p>
-              <p className='text-body-sm text-neutral-300'>Contact</p>
-            </div>
 
-            <div className=' sm:col-span-4 flex flex-col items-center'>
-              <p className='text-body-lg font-medium'>Legal</p>
-              <p className='text-body-sm text-neutral-300'>Cookies Policy</p>
-              <p className='text-body-sm text-neutral-300'>
-                Terms & Conditions
+              <p className='link text-body-sm text-neutral-300'>
+                <Link to='/about'>About</Link>
+              </p>
+              <p className='link text-body-sm text-neutral-300'>
+                <Link to='/jobs'>Jobs</Link>
+              </p>
+              <p className='link text-body-sm text-neutral-300'>
+                <Link to='/about'>Contact</Link>
               </p>
             </div>
-            <div className=' sm:col-span-4 flex flex-col items-center'>
+
+            <div className='sm:col-span-4 flex flex-col items-center'>
+              <p className='text-body-lg font-medium'>Legal</p>
+              <p className='link text-body-sm text-neutral-300'>
+                <Link to='/about'>Cookies Policy</Link>
+              </p>
+              <p className='link text-body-sm text-neutral-300'>
+                <Link to='/about'>Terms & Conditions</Link>
+              </p>
+            </div>
+            <div className='sm:col-span-4 flex flex-col items-center'>
               <p className='text-body-lg font-medium'>Follow us</p>
-              <p className='text-body-sm text-neutral-300'>LinkedIn</p>
-              <p className='text-body-sm text-neutral-300'>Twitter</p>
+              <p className='link text-body-sm text-neutral-300'>
+                <Link to='/about'>LinkedIn</Link>
+              </p>
+              <p className='link text-body-sm text-neutral-300'>
+                <Link to='/about'>Twitter</Link>
+              </p>
             </div>
           </div>
 

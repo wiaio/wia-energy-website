@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
@@ -48,6 +48,7 @@
     "@types/react-scroll": "^1.8.10",
     "autoprefixer": "^10.4.7",
     "gatsby-plugin-postcss": "^6.13.1",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.2",
     "typescript": "^5.3.3"

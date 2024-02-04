@@ -1,7 +1,7 @@
 import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
-  pathPrefix: "/wia-energy-websit",
+  pathPrefix: "/wia-energy-website",
   siteMetadata: {
     title: `WIA-ENERGY-WEBSITE`,
     siteUrl: `https://www.yourdomain.tld`,

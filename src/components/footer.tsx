@@ -11,7 +11,7 @@ const Footer = () => {
               <p className='text-body-lg font-medium'>Company</p>
 
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='about'>About</Link>
+                <Link to='/about'>About</Link>
               </p>
               <p className='link text-body-sm text-neutral-300'>
                 <Link to='/jobs'>Jobs</Link>

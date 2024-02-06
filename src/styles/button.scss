@@ -11,5 +11,11 @@
   background-position: left;
   z-index: 9999;
   width: 93px;
+  position: relative;
+  .navbar-link {
+    width: 93px;
+    height: 42px;
+    position: absolute;
+  }
 }
 

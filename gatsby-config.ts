@@ -4,7 +4,7 @@ const config: GatsbyConfig = {
   pathPrefix: "/wia-energy-website",
   siteMetadata: {
     title: `WIA-ENERGY-WEBSITE`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://wia.io`,
     author: `wia`, // Replace with your twitter handle
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

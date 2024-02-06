@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
 const Button = ({
   label,
@@ -10,20 +11,20 @@ const Button = ({
 }: {
   label: string;
   link: string;
-    size?: string;
-    background?: string;
+  size?: string;
+  background?: string;
   color?: string;
 }) => (
-  <a
-    className={`button flex items-center justify-center rounded-lg  font-semibold  
-    ${size === 'lg' ? 'px-6 py-4 text-body-sm' : 'px-4 py-2.5 text-body-xs'}
-    ${background ? background : 'bg-primary-600'}
-    ${color ? color : 'text-white'}
-      `}
-    href={link}
-  >
-    {label}
-  </a>
+  <Link to={link}>
+    <a
+      className={`button flex items-center justify-center rounded-lg font-semibold  
+        ${size === 'lg' ? 'px-6 py-4 text-body-sm' : 'px-4 py-2.5 text-body-xs'}
+        ${background ? background : 'bg-primary-600'}
+        ${color ? color : 'text-white'}`}
+    >
+      {label}
+    </a>
+  </Link>
 );
 
 Button.propTypes = {

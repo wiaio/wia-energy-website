@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://wia.io/wia-energy-website/sitemap-index.xml
-Host: https://wia.io
+Sitemap: https://www.wia.io/sitemap-index.xml
+Host: https://www.wia.io

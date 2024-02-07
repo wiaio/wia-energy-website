@@ -29,9 +29,9 @@ const Footer = () => {
               <p className='link text-body-sm text-neutral-300'>
                 <a href='/cookies'>Cookies Policy</a>
               </p>
-              <p className='link text-body-sm text-neutral-300'>
+              {/* <p className='link text-body-sm text-neutral-300'>
                 <a href='/terms'>Terms & Conditions</a>
-              </p>
+              </p> */}
             </div>
             <div className='sm:col-span-4 flex flex-col items-center'>
               <p className='text-body-lg font-medium'>Follow us</p>

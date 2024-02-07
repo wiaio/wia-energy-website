@@ -1,10 +1,11 @@
 import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
-  pathPrefix: "/wia-energy-website",
   siteMetadata: {
     title: `WIA-ENERGY-WEBSITE`,
-    siteUrl: `https://wia.io`,
+    description:
+      'Wia offers an all-in-one IoT Cloud Platform for businesses to monitor electricity and embrace sustainability. With tools for energy management, operational efficiency, and cost reduction, it supports secure IoT solutions integration at scale. Ideal for fleet management, sensor data analysis, and real-time device monitoring.',
+    siteUrl: `https://www.wia.io/`,
     author: `wia`, // Replace with your twitter handle
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

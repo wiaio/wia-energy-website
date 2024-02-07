@@ -1,8 +1,7 @@
-import * as React from "react";
-import PropTypes from "prop-types";
-import { Helmet } from "react-helmet";
-import { useStaticQuery, graphql } from "gatsby";
-
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+import { useStaticQuery, graphql } from 'gatsby';
 
 function Seo({ lang, meta, title, description, image, url }) {
   const { site } = useStaticQuery(
@@ -24,7 +23,7 @@ function Seo({ lang, meta, title, description, image, url }) {
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
   const ogImage = image;
-  const ogUrl = `/${url}` || "";
+  const ogUrl = `/${url}` || '';
 
   return (
     <Helmet
@@ -39,7 +38,7 @@ function Seo({ lang, meta, title, description, image, url }) {
         },
         {
           name: `keywords`,
-          content: `landing page, uikit, open source ui kit, landify ui kit, free uikit, figma uikit, aravinddesign, free website ui kit, free figma website ui kit, free landing page ui kit, landing page ui kit for figma, website ui kit for figma`,
+          content: `IoT Cloud Platform, Wia, electricity monitoring, sustainability, energy management, operational efficiency, IoT solutions, fleet management, sensor data, device monitoring`,
         },
         {
           property: `og:image`,

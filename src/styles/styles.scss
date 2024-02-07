@@ -244,7 +244,37 @@ footer {
   font-weight: 700;
 }
 
-.section--terms {
+.section-terms,
+.cookies-section {
   height: 100%;
   text-align: left;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 8px !important;
+  }
+
+  h1 {
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 23px;
+    margin-bottom: 5px;
+    margin-top: 24px !important;
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 21px;
+    padding-top: 21px;
+  }
+
+  h3 {
+    font-weight: bold;
+    padding-top: 24px;
+  }
 }

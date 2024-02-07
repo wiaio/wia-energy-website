@@ -14,7 +14,6 @@ const Layout = ({ children }: any) => (
         src='https://kit.fontawesome.com/d7b6a45a19.js'
         crossOrigin='anonymous'
       ></script>
-      <script src='https://cdn.iubenda.com/iubenda.js'> </script>
       <link
         rel='icon'
         href='https://cdn.wia.io/website/images/favicons/android-chrome-192x192.png'

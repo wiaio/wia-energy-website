@@ -24,10 +24,13 @@ const Footer = () => {
             <div className='sm:col-span-4 flex flex-col items-center'>
               <p className='text-body-lg font-medium'>Legal</p>
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='/cookies'>Cookies Policy</Link>
+                <a href='/privacy'>Privacy Policy</a>
               </p>
               <p className='link text-body-sm text-neutral-300'>
-                <Link to='/terms'>Terms & Conditions</Link>
+                <a href='/cookies'>Cookies Policy</a>
+              </p>
+              <p className='link text-body-sm text-neutral-300'>
+                <a href='/terms'>Terms & Conditions</a>
               </p>
             </div>
             <div className='sm:col-span-4 flex flex-col items-center'>

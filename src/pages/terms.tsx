@@ -1,4 +1,4 @@
-import { withPrefix } from 'gatsby';
+import { Script } from 'gatsby';
 import * as React from 'react';
 
 import Layout from '../components/layout';
@@ -13,12 +13,16 @@ const Terms = () => (
               Terms of Service
             </h2>
             <a
-              href='https://www.iubenda.com/privacy-policy/638858'
+              href='https://www.iubenda.com/terms-and-conditions/638858'
               className='iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iub-no-markup iubenda-noiframe iub-body-embed'
-              title='Privacy Policy'
+              title='Terms and Conditions'
             >
-              Privacy Policy
+              Terms and Conditions
             </a>
+            <Script
+              id='second-unique-id'
+              src='https://cdn.iubenda.com/iubenda.js'
+            />
           </div>
         </div>
       </div>

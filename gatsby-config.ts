@@ -2,7 +2,8 @@ import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `WIA-ENERGY-WEBSITE`,
+    title: `Wia | Empowering Sustainable Energy
+    Through Real-Time Monitoring`,
     description:
       'Wia offers an all-in-one IoT Cloud Platform for businesses to monitor electricity and embrace sustainability. With tools for energy management, operational efficiency, and cost reduction, it supports secure IoT solutions integration at scale. Ideal for fleet management, sensor data analysis, and real-time device monitoring.',
     siteUrl: `https://www.wia.io/`,

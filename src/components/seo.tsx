@@ -11,12 +11,12 @@ function Seo({
   image,
   url,
 }: {
-  lang: string;
-  meta: any;
-  title: string;
-  description: string;
-  image: string;
-  url: string;
+  lang?: string;
+  meta?: any;
+  title?: string;
+  description?: string;
+  image?: string;
+  url?: string;
 }) {
   const { site } = useStaticQuery(
     graphql`
@@ -34,7 +34,7 @@ function Seo({
     `
   );
 
-  const siteTitle = title || site.siteMetadata.title;
+  const siteTitle = 'Wia';
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
   const ogImage = image || site.siteMetadata.image;

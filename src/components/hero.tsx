@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Button from './button';
 
 const Hero = () => {
+  useEffect(() => window.scrollTo(0, 0), []);
   return (
     <div id='#hero' className='container-border-bottom'>
       <div className='container mx-auto'>
@@ -20,7 +21,7 @@ const Hero = () => {
               </p>
               <Button
                 label='Speak to an Expert'
-                link='mailto:sales@wia.io'
+                link='/contact'
                 size='lg'
               />
             </div>

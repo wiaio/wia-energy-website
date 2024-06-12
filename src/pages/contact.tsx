@@ -3,14 +3,16 @@ import {
   faCommentsQuestion,
   faEnvelope,
   faNewspaper,
+  faScaleUnbalanced,
 } from '@fortawesome/pro-duotone-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 
 import Layout from '../components/layout';
 
-const Contact = () => (
-  <Layout>
+const Contact = () => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
+  return <Layout>
     <div id='#solutions' className=''>
       <div className='container mx-auto'>
         <div className='flex flex-col relative md:py-24 py-16'>
@@ -22,8 +24,8 @@ const Contact = () => (
               Send us an email
             </p>
           </div>
-          <div className='grid md:grid-cols-12 grid-cols-1 gap-8 items-center relative'>
-            <div className='md:col-span-4 md:h-full flex flex-col items-center'>
+          <div className='grid md:grid-cols-12 grid-cols-1 gap-8 gap-y-16 items-center relative'>
+            <div className='lg:col-span-3 md:col-span-6 md:h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faBuilding} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 Sales
@@ -39,7 +41,7 @@ const Contact = () => (
                 </a>
               </div>
             </div>
-            <div className='md:col-span-4 md:h-full flex flex-col items-center'>
+            <div className='lg:col-span-3 md:col-span-6 md:h-full flex flex-col items-center'>
               <FontAwesomeIcon
                 icon={faCommentsQuestion}
                 className='icon mb-6'
@@ -63,7 +65,7 @@ const Contact = () => (
               </div>
             </div>
 
-            <div className='md:col-span-4 md:h-full flex flex-col items-center'>
+            <div className='lg:col-span-3 md:col-span-6 md:h-full flex flex-col items-center'>
               <FontAwesomeIcon icon={faNewspaper} className='icon mb-6' />
               <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
                 Press
@@ -79,11 +81,27 @@ const Contact = () => (
                 </a>
               </div>
             </div>
+            <div className='lg:col-span-3 md:col-span-6 md:h-full flex flex-col items-center'>
+              <FontAwesomeIcon icon={faScaleUnbalanced} className='icon mb-6' />
+              <h2 className='lg:text-4xl text-display-xs font-semibold text-center pb-2'>
+                Legal
+              </h2>
+              <p className='text-body-md font-normal text-neutral-600 text-center mb-5'>
+                For legal & <br />
+                DSA related matters.
+              </p>
+              <div className='flex flex-row items-center'>
+                <FontAwesomeIcon icon={faEnvelope} className='icon mr-2 xs' />
+                <a href='mailto:press@wia.io' className='link text-primary-600'>
+                  legal@wia.io
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </Layout>
-);
+};
 
 export default Contact;

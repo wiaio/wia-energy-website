@@ -14,7 +14,7 @@ const TalkToUs = () => {
             </h2>
             <Button
               label='Speak to an Expert'
-              link='mailto:sales@wia.io'
+              link='/contact'
               size='lg'
               background='bg-white'
               color='text-primary-600'

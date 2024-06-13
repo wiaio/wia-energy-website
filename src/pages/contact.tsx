@@ -10,9 +10,8 @@ import * as React from 'react';
 
 import Layout from '../components/layout';
 
-const Contact = () => {
-  React.useEffect(() => window.scrollTo(0, 0), []);
-  return <Layout>
+const Contact = () => (
+  <Layout>
     <div id='#solutions' className=''>
       <div className='container mx-auto'>
         <div className='flex flex-col relative md:py-24 py-16'>
@@ -102,6 +101,6 @@ const Contact = () => {
       </div>
     </div>
   </Layout>
-};
+);
 
 export default Contact;

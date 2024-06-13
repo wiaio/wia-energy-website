@@ -89,7 +89,7 @@ function Seo({
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: siteTitle,
         },
         {
           name: `twitter:description`,

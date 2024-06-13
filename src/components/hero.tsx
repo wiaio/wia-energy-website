@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Button from './button';
 
 const Hero = () => {
-  useEffect(() => window.scrollTo(0, 0), []);
   return (
     <div id='#hero' className='container-border-bottom'>
       <div className='container mx-auto'>

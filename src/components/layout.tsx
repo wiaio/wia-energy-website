@@ -4,10 +4,10 @@ import { Helmet } from 'react-helmet';
 
 import Header from './header';
 import Footer from './footer';
-import { withPrefix } from 'gatsby';
 
-const Layout = ({ children }: any) => (
-  <>
+const Layout = ({ children }: any) => {
+  React.useEffect(() => window.scrollTo(0, 0), []);
+  return <>
     <Helmet>
       <script src='https://gumroad.com/js/gumroad.js' />
       <script
@@ -39,7 +39,7 @@ const Layout = ({ children }: any) => (
     </div>
     <Footer />
   </>
-);
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

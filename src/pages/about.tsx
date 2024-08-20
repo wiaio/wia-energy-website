@@ -4,9 +4,11 @@ import * as React from 'react';
 import Button from '../components/button';
 
 import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const About = () => (
   <Layout>
+    <Seo title='Wia | About us'/>
     <div id='#solutions' className=''>
       <div className='container mx-auto'>
         <div className='flex flex-col relative md:py-24 py-16'>

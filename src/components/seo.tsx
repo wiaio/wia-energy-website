@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useSiteMetadata } from '../hooks/use-site-metadata';
 
 function Seo({
   lang,
@@ -18,26 +18,12 @@ function Seo({
   image?: string;
   url?: string;
 }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            siteUrl
-            title
-            description
-            author
-            image
-          }
-        }
-      }
-    `
-  );
+  const siteMetadata = useSiteMetadata();
 
-  const siteTitle = 'Wia';
-  const metaDescription = description || site.siteMetadata.description;
-  const siteUrl = site.siteMetadata.siteUrl;
-  const ogImage = image || site.siteMetadata.image;
+  const siteTitle = title || siteMetadata.title;
+  const metaDescription = description || siteMetadata.description;
+  const siteUrl = siteMetadata.siteUrl;
+  const ogImage = image || siteMetadata.image;
   const ogUrl = `/${url}` || '';
 
   return (
@@ -81,7 +67,7 @@ function Seo({
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: siteMetadata?.author || ``,
         },
         {
           name: `twitter:image`,

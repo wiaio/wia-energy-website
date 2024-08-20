@@ -2,9 +2,11 @@ import { Script } from 'gatsby';
 import * as React from 'react';
 
 import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const Privacy = () => (
   <Layout>
+    <Seo title='Wia | Privacy'/>
     <div id='#terms' className='section-terms'>
       <div className='container mx-auto'>
         <div className='flex flex-col relative md:py-24 py-16'>

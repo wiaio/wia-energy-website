@@ -2,9 +2,11 @@ import { Script } from 'gatsby';
 import * as React from 'react';
 
 import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const Cookies = () => (
   <Layout>
+    <Seo title='Wia | Cookies'/>
     <div id='#solutions' className='cookies-section'>
       <div className='container mx-auto'>
         <div className='flex flex-col relative md:py-24 py-16'>

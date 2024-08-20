@@ -9,9 +9,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 
 import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const Contact = () => (
   <Layout>
+    <Seo title='Wia | Contact us'/>
     <div id='#solutions' className=''>
       <div className='container mx-auto'>
         <div className='flex flex-col relative md:py-24 py-16'>
